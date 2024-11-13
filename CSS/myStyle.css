@@ -33,6 +33,14 @@ body
     background-color: rgb(12, 96, 175);
 }
 
+.image
+{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 p
 {
     color: white
@@ -52,9 +60,10 @@ header
 
 nav
 {
-    width: 660px;
+    width: 540px;
+    text-align: center;
     background-color: rgb(23, 132, 204);
-    padding: 10px 170px 10px 130px;
+    padding: 10px 230px 10px 190px;
     margin: 10px 0px 10px 0px
 }
 nav li
@@ -62,7 +71,7 @@ nav li
     display:inline;
     list-style-type: none;
     padding-right: 40px;
-
+    text-align:center;
 }
 
 aside
@@ -75,6 +84,11 @@ aside
     background-color: rgb(49, 55, 131);
     float:left;
 }
+aside ul
+{
+    padding: 10px;
+}
+
 section
 {
     color:white;
@@ -98,10 +112,37 @@ footer
 
 :link
 {
-    color: black;
+    color: red;
 }
 
 :visited
 {
-    color: black;
+    color: red;
+}
+
+table
+{
+    border: solid 2px white;
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+tr, td, th
+{
+    padding:5px;
+    border: solid 2px white;
+    color: white;
+}
+caption
+{
+    font-size:1.5em;
+    color: white;
+    padding: 10px;
+}
+
+#topofmyhobbies
+{
+    text-align: center;
+    color: white;
+    padding: 10px;
 }
